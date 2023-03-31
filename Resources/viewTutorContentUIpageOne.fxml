@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="526.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(to top , lightblue, #0963e8) linear-gradient(to top , lightblue, #0963e8);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WRR301.Controller">
+   <children>
+      <Label alignment="TOP_LEFT" layoutX="20.0" layoutY="14.0" prefHeight="25.0" prefWidth="360.0" text="Tutor Content">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.4548611044883728" green="0.7155671119689941" blue="0.75" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9882352948188782" green="0.9882352948188782" blue="0.9882352948188782" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Comic Sans MS" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="147.0" prefHeight="17.0" prefWidth="168.0" text="Module " textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="tutorContentBackBtn" layoutX="20.0" layoutY="73.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #04366b;" text="&lt; Back" textFill="WHITE" />
+      <ListView fx:id="tutorContentList" layoutX="102.0" layoutY="129.0" prefHeight="290.0" prefWidth="553.0" />
+   </children>
+</AnchorPane>

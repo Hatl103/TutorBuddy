@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to top , lightblue, #0963e8);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="201.0" layoutY="32.0" prefHeight="31.0" prefWidth="267.0" text="Create Session" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="105.0" text="Module" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="166.0" text="Date" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="283.0" layoutY="153.0" />
+      <ComboBox layoutX="283.0" layoutY="101.0" prefWidth="150.0" />
+      <Label layoutX="40.0" layoutY="219.0" text="Time" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="276.0" text="Number Of Students" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="284.0" layoutY="215.0" prefHeight="25.0" prefWidth="59.0" />
+      <ComboBox layoutX="352.0" layoutY="215.0" prefHeight="25.0" prefWidth="59.0" />
+      <Button layoutX="329.0" layoutY="341.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: #04366b;" text="Create" textFill="WHITE" />
+      <Button layoutX="177.0" layoutY="341.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #5578eb;" text="Cancel" />
+      <TextField layoutX="284.0" layoutY="273.0" prefHeight="9.0" prefWidth="50.0" />
+      <Label layoutX="343.0" layoutY="217.0" text=":">
+         <font>
+            <Font name="72 Black" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

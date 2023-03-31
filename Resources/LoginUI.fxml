@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="655.0" style="-fx-background-color: linear-gradient(to top , lightblue, #0963e8) linear-gradient(to top , lightblue, #0963e8);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WRR301.Controller">
+   <children>
+      <TextField fx:id="studentNrStart" layoutX="132.0" layoutY="188.0" prefHeight="25.0" prefWidth="363.0" />
+      <Label layoutX="132.0" layoutY="158.0" prefHeight="24.0" prefWidth="142.0" text="Student Number" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Italic" size="17.0" />
+         </font></Label>
+      <PasswordField fx:id="passwordFieldStart" layoutX="132.0" layoutY="274.0" prefHeight="25.0" prefWidth="363.0" />
+      <Label layoutX="132.0" layoutY="239.0" prefHeight="17.0" prefWidth="86.0" text="Password" textFill="#fcfcfc">
+         <font>
+            <Font name="Comic Sans MS Italic" size="17.0" />
+         </font></Label>
+      <CheckBox fx:id="showPasswordStart" layoutX="132.0" layoutY="314.0" mnemonicParsing="false" onAction="#showPasswordStart" text="Show password" textFill="#686363" />
+      <Button fx:id="loginBtn" layoutX="418.0" layoutY="337.0" mnemonicParsing="false" onAction="#switchToLandingUI" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #04366b;" text="Login" textFill="WHITE" />
+      <Button fx:id="signUpBtn" layoutX="328.0" layoutY="337.0" mnemonicParsing="false" onAction="#switchToRegistrationScene" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #5578eb;" text="Sign Up" />
+      <Label alignment="CENTER" layoutX="112.0" layoutY="31.0" prefHeight="25.0" prefWidth="360.0" text="Tutor Buddy">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.4548611044883728" green="0.7155671119689941" blue="0.75" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9882352948188782" green="0.9882352948188782" blue="0.9882352948188782" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="49.0" />
+         </font>
+      </Label>
+      <Label fx:id="passwordLabelStart" layoutX="132.0" layoutY="299.0" prefHeight="17.0" prefWidth="103.0" text="Label" visible="false" />
+   </children>
+</Pane>

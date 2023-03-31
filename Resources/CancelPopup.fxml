@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="158.0" prefWidth="529.0" style="-fx-background-color: Blue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="312.0" layoutY="97.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="98.0" style="-fx-background-color: #04366b;" text="Yes" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="142.0" layoutY="97.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" style="-fx-background-color: #5578eb;" text="NO" textFill="#fffdfd">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="142.0" layoutY="26.0" prefHeight="65.0" prefWidth="284.0" text="Are you sure you would like to cancel ?" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

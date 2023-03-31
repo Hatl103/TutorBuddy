@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WRR301.Controller">
+   <children>
+      <MenuBar maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: linear-gradient(to top , lightblue, #0963e8);">
+        <menus>
+          <Menu mnemonicParsing="false" text="Menu">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#switchToUpdateDetsUI" text="Update my account" />
+                  <MenuItem mnemonicParsing="false" text="Become a tutor" />
+                  <MenuItem mnemonicParsing="false" text="Log out" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="626.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab style="-fx-background-color: #5B90BFFF;" text="Home">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(to top , lightblue, #0963e8);">
+                     <children>
+                        <Button fx:id="requestTutorBtn" layoutX="480.0" layoutY="125.0" mnemonicParsing="false" onAction="#switchToRequestTutorUI" prefHeight="25.0" prefWidth="126.0" style="-fx-background-color: #04366b;" text="Request Tutor" textFill="#f8f8f8" />
+                        <ListView fx:id="myTutorList" layoutX="14.0" layoutY="125.0" prefHeight="220.0" prefWidth="453.0" style="-fx-background-color: #5578eb;" />
+                        <Label layoutX="14.0" layoutY="91.0" prefHeight="17.0" prefWidth="145.0" text="My Tutors" textFill="#e0e0f2">
+                           <font>
+                              <Font name="Comic Sans MS" size="19.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_CENTER" layoutX="5.0" prefHeight="55.0" prefWidth="616.0" text="ME">
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color blue="0.75" green="0.7155671119689941" red="0.4548611044883728" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color blue="0.9882352948188782" green="0.9882352948188782" red="0.9882352948188782" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                           <font>
+                              <Font name="Comic Sans MS" size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab style="-fx-background-color: #5B90BFFF;" text="My Job">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="418.0" prefWidth="626.0" style="-fx-background-color: linear-gradient(to top , lightblue, #0963e8);">
+                     <children>
+                        <Label layoutX="21.0" layoutY="14.0" prefHeight="34.0" prefWidth="199.0" text="Created Sessions" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="500.0" layoutY="20.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" style="-fx-background-color: #04366b;" text="Add Session" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                         <ListView id="View Sessions" fx:id="myTutorList" layoutX="14.0" layoutY="48.0" prefHeight="146.0" prefWidth="475.0" style="-fx-background-color: #5578eb;" />
+                        <Label layoutX="14.0" layoutY="196.0" prefHeight="34.0" prefWidth="172.0" text="Job Offers" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ListView id="Job offers" fx:id="myTutorList1" layoutX="14.0" layoutY="230.0" prefHeight="146.0" prefWidth="475.0" style="-fx-background-color: #5578eb;" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab style="-fx-background-color: #5B90BFFF;" text="My Sessions">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(to top , lightblue, #0963e8);" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="153.0" prefWidth="464.0" style="-fx-background-color: linear-gradient(to top ,#05385b, #034472);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WRR301.Controller">
+   <children>
+      <Label layoutX="13.0" layoutY="13.0" prefHeight="53.0" prefWidth="430.0" text="Your Tutor Request has been submitted. Expect Response within a week" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="353.0" layoutY="94.0" mnemonicParsing="false" onAction="#switchToLandingUI2" prefHeight="25.0" prefWidth="77.0" style="-fx-background-color: #1163ab;" text="back" textFill="WHITE" />
+   </children>
+</Pane>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="DbsLibs">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/DbsLibs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/DbsLibs" recursive="false" />
+  </library>
+</component>
