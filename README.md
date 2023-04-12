@@ -9,9 +9,9 @@ videos and notes which can be downloaded by their audience after a payment and s
 Tutors.
 
 # Tech Stack
-1.Java
-2.JavaFx
-3.Ms Access Database
+1. Java
+2. JavaFx
+3. Ms Access Database
 
-#Instalation
-1.Fork the repo then run then run the file TutorBuddy.iml file (You required to have java installed on the device you are running the app on)
+# Instalation
+Fork the repo then run then run the file TutorBuddy.iml file (You required to have java(11 and above) and javafx (2.0) installed on the device you are running the app on)
